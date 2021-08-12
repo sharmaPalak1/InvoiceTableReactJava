@@ -1,0 +1,45 @@
+
+.edit-add{
+    top: 211px;
+left: 407px;
+width: 750px;
+height: 385px;
+background: #2A3E4C 0% 0% no-repeat padding-box;
+box-shadow: 0px 8px 24px #00000029;
+border-radius: 3px;
+opacity: 1;
+color:#97A1A9;;
+text-align: left;
+}
+.leftB{
+
+    margin-left: 1vw;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 28vh;
+    opacity: 1;
+    justify-content:left;
+}
+
+.Heading{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 82vh;
+    justify-content:left;
+    color:snow;
+}
+.input, select, textarea{
+    color: #fff;
+}
+
+.textarea:focus, input:focus {
+    color: #fff;
+}
+input[type=text] {
+    color: white;
+  }
+.alert_mess{
+    justify-content: left;
+}
+
+

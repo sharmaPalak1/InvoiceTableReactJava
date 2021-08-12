@@ -1,0 +1,40 @@
+.correspondence {
+    top: 88px;
+    left: 80px;
+    width: 50rem;
+    height: 25rem;
+    background: #2a3e4c 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #00000029;
+    border-radius: 6px;
+    
+    opacity: 1;
+  }
+  .options {
+    background: rgba(42, 63, 77, 1);
+    border-top: 1px solid #1a262f;
+    padding: 30;
+  }
+  .table {
+    table-layout: fixed;
+    word-wrap: break-word;
+    
+  }
+  
+  .hover {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .division_body {
+    background: rgba(42, 63, 77, 1);
+    box-shadow: rgba(0, 0, 0, 0.16);
+    border-top: 1px solid #1a262f;
+    padding: 30;
+  }
+  .dropdown {
+    width: 9rem;
+    height: 3rem;
+    background: #283A46 0% 0% no-repeat padding-box;
+    border: 1px solid #14AFF1;
+    border-radius: 10px;
+    padding-top: 10rem;
+  }

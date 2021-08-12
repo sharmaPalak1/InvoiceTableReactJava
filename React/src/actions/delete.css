@@ -1,0 +1,32 @@
+.del{
+  top: 18.375rem;
+  left: 40.875rem;
+  width: 26rem;
+  height: 17rem;
+  background: rgba(42, 63, 77, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.16);
+  border-radius: 3px;
+  opacity: 1;
+  color: #97A1A9;
+}
+.HeadDel{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 23vh;
+  justify-content:left;
+  color:#FFFFFF;
+}
+.space_between{
+  display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1.2vh;
+}
+.red{
+  color: #FF5B5B;
+  display:inline-flex;
+}
+.button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  color: #999999;
+}

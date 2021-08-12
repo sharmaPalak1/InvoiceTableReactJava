@@ -1,0 +1,85 @@
+.navbar {
+    background: #58687E;
+    display: flex;
+    overflow:auto;
+    top: 0vh;
+    left: 0vw;
+    width: 150vw;
+    height: 152.45vh;
+    background: transparent radial-gradient(closest-side at 50% 50%, #58687E 0%, #39495E 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    /*justify-content: center;
+    align-items: center;*/
+    font-size: 1.2rem;
+    position: sticky;
+    position: fixed; 
+    top: 0;
+    width:100%;
+    z-index: 999;
+  }
+ .navbar-container {
+    display: flex;
+    justify-content: center;
+    height: 11.4vh;
+    max-width: 246vh;
+  }
+
+  .hrclogo{
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 19.53vw;
+    }
+   .hrc{
+    padding-top: 0vh;
+    padding-left: 6.64vw;
+    width: 12.89vw;
+    height: 5.90vh;
+    top: 0.26vh;
+    left: 18.92vw;
+   }
+
+  .abc{
+    top: 0.72vh;
+    left: 17.13vw;
+    width: 15.82vw;
+    height: 9.68vh;
+    padding-top: 0vh;
+    padding-left: 2vw;
+  }
+
+.List{
+  top: 10.10vh;
+    left: 1.8vw;
+    width: 28.087vw;
+    height: 4.09vh;
+    text-align: left;
+    font: Ubuntu;
+    letter-spacing: 0vw;
+    color: #FFFFFF;
+    opacity: 1;
+    position: absolute;
+}
+  
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+  
+    .List{
+      position: absolute;
+      transform: translate(25%, 50%)
+    }
+    
+  
+    .hrc {
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  .abc{
+    transform: translate(50%, 50%)
+  }
+  }
